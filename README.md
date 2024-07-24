@@ -20,7 +20,7 @@
     alt="Website Badge" />
 </p>
 
-This project is intended to showcase our knowledge learning about Neural Network Design by developing a
+While learning about how to use haskell I coded a series of functions to solve specific programming problems. The goal was to enhance skills in functional programming, tail-recursion, and higher-order functions. The tasks included writing functions for list operations, tree manipulation, and custom data types, along with full unit tests to ensure correctness. 
 
 ![project image](resources/image1.png)
 
@@ -51,11 +51,12 @@ This project is intended to showcase our knowledge learning about Neural Network
 
 
 
+
 # Tools Used / Development Environment
-- Python
+- Java
 - VS Code
 - Terminal
-- Windows 10
+- Ubuntu
 
 
 
@@ -63,8 +64,8 @@ This project is intended to showcase our knowledge learning about Neural Network
 
 # Team / Contributors / Teachers
 - [Mitchell Kolb](https://github.com/mitchellkolb)
-- [name]()
-- Professor. 
+- Associate Professor. Jeremy E. Thompson
+
 
 
 
