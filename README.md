@@ -40,7 +40,13 @@ While learning about how to use haskell I coded a series of functions to solve s
 - [Team / Contributors / Teachers](#team--contributors--teachers)
 - [How to Set Up](#how-to-set-up)
 - [Project Overview](#project-overview)
-- [References](#references)
+- [Project Details](#project-details)
+- [Introduction](#introduction)
+- [Key Haskell Concepts](#key-haskell-concepts)
+- [HW1](#hw1)
+- [HW2](#hw2)
+- [Unit Tests](#unit-tests)
+- [Topics and Lessons Covered](#topics-and-lessons-covered)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -80,50 +86,60 @@ This project was implemented on our local machine inside of a virtual machine us
 
 
 
-
 # Project Overview
-This project utilizes 
-
-
+I utilized Haskell to solve various programming problems aimed at enhancing my skills in functional programming, recursion, and higher-order functions. Through this project, I wrote functions for list operations, tree manipulation, and custom data types, along with comprehensive unit tests to ensure correctness. Key accomplishments include implementing recursive and tail-recursive solutions, effectively using higher-order functions, and ensuring compliance with Haskell's type and style requirements.
 
 ## Project Details
+This project is structured around solving a series of problems using Haskell, divided into two main assignments and additional topics covered in lectures. The solutions focus on applying functional programming principles to real-world scenarios, emphasizing the power of recursion and higher-order functions.
 
-### Introduction
-In this project, we apply 
+## Introduction
+In this project, I applied the principles of functional programming in Haskell to solve a variety of problems. The tasks included operations on lists, trees, and custom data types. Through these tasks, I aimed to deepen my understanding of recursion, higher-order functions, type systems, and other key concepts in Haskell such as currying, data types, and tail-recursion.
+
+## Key Haskell Concepts
+
+- **Currying**: Currying is a technique where a function with multiple arguments is transformed into a sequence of functions, each with a single argument. This allows for partial application of functions, making Haskell code more flexible and reusable.
+
+- **Higher-Order Functions**: Higher-order functions are functions that take other functions as arguments or return functions as results. Some common higher-order functions in Haskell include:
+  - `map`: Applies a function to each element of a list.
+  - `filter`: Selects elements of a list that satisfy a predicate.
+  - `foldr` and `foldl`: Reduce a list to a single value by recursively applying a function.
+
+- **Data Types**: Haskell's type system is strong and statically typed, which helps catch many errors at compile time. You can define your own data types using the `data` keyword.
+
+- **Tail-Recursion**: Tail-recursion is a special form of recursion where the recursive call is the last operation in the function. This allows the compiler to optimize the recursion, making it as efficient as a loop.
+
+## HW1
+In this project, I applied Haskell to solve problems such as:
+1. **exists**: A function to check if a value exists in a list.
+2. **listUnion**: A function to return the union of two lists.
+3. **replace**: A function to replace an element at a given index in a list.
+4. **prereqFor**: A function to find all courses that require a given course as a prerequisite.
+5. **isPalindrome**: A function to check if a string is a palindrome.
+6. **groupSumtoN**: A function to group elements of a list into sublists whose sums are less than or equal to a given value.
+
+## HW2
+In this project, I applied more advanced Haskell techniques to solve problems such as:
+1. **merge2, merge2Tail, and mergeN**: Functions to merge lists in various ways.
+2. **getInRange and countInRange**: Functions to filter and count elements within a range.
+3. **addLengths and addAllLengths**: Functions to sum lengths represented in different units.
+4. **sumTree and createSumTree**: Functions to sum elements in a tree and create trees with summed values.
+5. **foldListTree**: A function to fold a tree structure.
+
+## Unit Tests
+In this project, I applied unit tests using the HUnit framework to ensure the correctness of my functions. Each function was tested with a variety of inputs, covering edge cases and typical values.
+
+## Topics and Lessons Covered
+In this project, I applied several key concepts of functional programming in Haskell:
+- **Recursion**: Writing functions that call themselves to solve problems.
+- **Tail Recursion**: Optimizing recursive functions to avoid stack overflow.
+- **Higher-Order Functions**: Using functions like `map`, `filter`, and `foldr` to process lists.
+- **Type Systems**: Leveraging Haskell's strong type system to write robust code.
+- **Tree Manipulation**: Working with tree data structures to solve complex problems.
+- **Unit Testing**: Ensuring code correctness through comprehensive testing with HUnit.
+
+This project demonstrates the power and elegance of Haskell in solving complex programming problems through functional programming principles.
 
 
-### Literature Review
-In this we drew inspiration from various sources, including video tutorials online for 
-
-
-### Technical Plan
-The project employs a 
-
-
-### Implementation Details
-
-#### Files and Structure
-- `game.py`: Contains the racing game environment and controls the car's movement.
-> [!NOTE]
-> These files were 
-
-
-### Implementation
-In this project
-
-#### Results and Observations
-During development,
-<p float="left">
-  <img src="resources/image1.png" alt="First Try" width="300" />
-  <img src="resources/image2.png" alt="Final Try" width="307" />
-</p>
-
-#### Future Work
-Future improvements could include
-
-
-
-## References
 
 
 
