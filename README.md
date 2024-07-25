@@ -41,7 +41,6 @@ While learning about how to use haskell I coded a series of functions to solve s
 - [How to Set Up](#how-to-set-up)
 - [Project Overview](#project-overview)
 - [Project Details](#project-details)
-- [Introduction](#introduction)
 - [Key Haskell Concepts](#key-haskell-concepts)
 - [HW1](#hw1)
 - [HW2](#hw2)
@@ -90,10 +89,7 @@ This project was implemented on our local machine inside of a virtual machine us
 I utilized Haskell to solve various programming problems aimed at enhancing my skills in functional programming, recursion, and higher-order functions. Through this project, I wrote functions for list operations, tree manipulation, and custom data types, along with comprehensive unit tests to ensure correctness. Key accomplishments include implementing recursive and tail-recursive solutions, effectively using higher-order functions, and ensuring compliance with Haskell's type and style requirements.
 
 ## Project Details
-This project is structured around solving a series of problems using Haskell, divided into two main assignments and additional topics covered in lectures. The solutions focus on applying functional programming principles to real-world scenarios, emphasizing the power of recursion and higher-order functions.
-
-## Introduction
-In this project, I applied the principles of functional programming in Haskell to solve a variety of problems. The tasks included operations on lists, trees, and custom data types. Through these tasks, I aimed to deepen my understanding of recursion, higher-order functions, type systems, and other key concepts in Haskell such as currying, data types, and tail-recursion.
+This project is structured around solving a series of problems using Haskell, divided into two main assignments and additional topics covered in lectures. I applied the principles of functional programming in Haskell to solve a variety of problems, including operations on lists, trees, and custom data types. The solutions focus on applying functional programming principles to real-world scenarios, emphasizing the power of recursion and higher-order functions. Through these tasks, I aimed to deepen my understanding of recursion, higher-order functions, type systems, and other key concepts in Haskell such as currying, data types, and tail-recursion.
 
 ## Key Haskell Concepts
 
