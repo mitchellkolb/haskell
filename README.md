@@ -20,7 +20,7 @@
     alt="Website Badge" />
 </p>
 
-While learning about how to use haskell I coded a series of functions to solve specific programming problems. The goal was to enhance skills in functional programming, tail-recursion, and higher-order functions. The tasks included writing functions for list operations, tree manipulation, and custom data types, along with full unit tests to ensure correctness. 
+While learning about how to use haskell I coded a series of functions to solve specific programming problems. The goal was to improve my skills in functional programming, tail-recursion, and higher-order functions. The tasks included writing functions for list operations, tree manipulation, and custom data types, along with full unit tests to ensure correctness. 
 
 ![project image](resources/image1.png)
 
@@ -51,14 +51,24 @@ While learning about how to use haskell I coded a series of functions to solve s
 ---
 
 # What I Learned in this Project
-- How to
-- Programming in 
+- How to code in haskell using: 
+    - Higher Order Functions like map, filter, foldl, and foldr
+    - Expressions and tuples like let, where, cons, and snoc
+    - Parameterized types and curried functions
+    - Data types like maybe, just, nothing, and custom ones
+    - Tail Recursive functions
+- Differences between:
+    - Imperative, Functional, Delcarative Languages.
+    - Static vs Dynamic type checking
+    - Manifest vs Implict types
+    - Dynamic vs Static scoping
 
 
 
 
 # Tools Used / Development Environment
-- Java
+- Haskell
+- HUnit Testing
 - VS Code
 - Terminal
 - Ubuntu
@@ -77,16 +87,30 @@ While learning about how to use haskell I coded a series of functions to solve s
 
 
 # How to Set Up
-This project was implemented on our local machine inside of a virtual machine using:
-- Ubuntu Version 20.04.03 found at this [link](http://lt.releases.ubuntu.com/20.04.3/).
+This project was implemented on my local machine inside of a virtual machine using vscode:
+- [Ubuntu Download](https://ubuntu.com/download/desktop)
+- Install the [Haskell Platform](https://www.haskell.org/downloads/), which includes the GHC compiler.
 - Clone this repository 
-- Open terminal at the codebase `~.../ext2/Noah-Mitchell/`
-
+- Open terminal at the codebase `~.../haskell/intro-haskell/` or `~.../haskell/higher-order-haskell/`
+- Run the Haskell interpreter and load the file within Haskell :
+``` haskell
+$ ghci
+Prelude > :load HW1
+Ok, one module loaded.
+Prelude Main> main
+Hello, world!
+Prelude Main>
+```
+OR
+```haskell
+$ ghci
+Prelude > :l HW1
+```
 
 
 
 # Project Overview
-I utilized Haskell to solve various programming problems aimed at enhancing my skills in functional programming, recursion, and higher-order functions. Through this project, I wrote functions for list operations, tree manipulation, and custom data types, along with comprehensive unit tests to ensure correctness. Key accomplishments include implementing recursive and tail-recursive solutions, effectively using higher-order functions, and ensuring compliance with Haskell's type and style requirements.
+I used Haskell to solve various programming problems aimed at enhancing my skills in functional programming, recursion, and higher-order functions. Through this project, I wrote functions for list operations, tree manipulation, and custom data types, along with comprehensive unit tests to ensure correctness. Key accomplishments include implementing recursive and tail-recursive solutions, effectively using higher-order functions, and ensuring compliance with Haskell's type and style requirements.
 
 ## Project Details
 This project is structured around solving a series of problems using Haskell, divided into two main assignments and additional topics covered in lectures. I applied the principles of functional programming in Haskell to solve a variety of problems, including operations on lists, trees, and custom data types. The solutions focus on applying functional programming principles to real-world scenarios, emphasizing the power of recursion and higher-order functions. Through these tasks, I aimed to deepen my understanding of recursion, higher-order functions, type systems, and other key concepts in Haskell such as currying, data types, and tail-recursion.
