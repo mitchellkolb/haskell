@@ -53,7 +53,7 @@ While learning about how to use haskell I coded a series of functions to solve s
 # What I Learned in this Project
 - How to code in haskell using: 
     - Higher Order Functions like map, filter, foldl, and foldr
-    - Expressions and tuples like let, where, cons, and snoc
+    - Expressions and pattern matching like let, where, cons, and snoc
     - Parameterized types and curried functions
     - Data types like maybe, just, nothing, and custom ones
     - Tail Recursive functions
@@ -110,23 +110,23 @@ Prelude > :l HW1
 
 
 # Project Overview
-I used Haskell to solve various programming problems aimed at enhancing my skills in functional programming, recursion, and higher-order functions. Through this project, I wrote functions for list operations, tree manipulation, and custom data types, along with comprehensive unit tests to ensure correctness. Key accomplishments include implementing recursive and tail-recursive solutions, effectively using higher-order functions, and ensuring compliance with Haskell's type and style requirements.
+I used Haskell to solve various programming problems with the goal of bettering my skills in functional programming, recursion, and higher-order functions. Through this project, I wrote functions for list operations, tree manipulation, and custom data types, along with comprehensive unit tests to ensure correctness. Key accomplishments include implementing recursive and tail-recursive solutions, using higher-order functions, and writing Haskell code with the style and structure that Haskell professionals use.
 
 ## Project Details
-This project is structured around solving a series of problems using Haskell, divided into two main assignments and additional topics covered in lectures. I applied the principles of functional programming in Haskell to solve a variety of problems, including operations on lists, trees, and custom data types. The solutions focus on applying functional programming principles to real-world scenarios, emphasizing the power of recursion and higher-order functions. Through these tasks, I aimed to deepen my understanding of recursion, higher-order functions, type systems, and other key concepts in Haskell such as currying, data types, and tail-recursion.
+This project involved solving problems using Haskell through two main assignments and lecture topics. I applied functional programming principles to operations on lists, trees, and custom data types. The focus was on recursion, higher-order functions, and other key Haskell concepts like currying, data types, and tail-recursion.
 
 ## Key Haskell Concepts
 
-- **Currying**: Currying is a technique where a function with multiple arguments is transformed into a sequence of functions, each with a single argument. This allows for partial application of functions, making Haskell code more flexible and reusable.
+- **Currying**: Currying is a technique where a function with multiple arguments is transformed into a sequence of functions, each with a single argument. This allows for partial application of functions, making Haskell code more flexible and reusable. All functions that have multiple arguments can curry by defualt.
 
 - **Higher-Order Functions**: Higher-order functions are functions that take other functions as arguments or return functions as results. Some common higher-order functions in Haskell include:
   - `map`: Applies a function to each element of a list.
   - `filter`: Selects elements of a list that satisfy a predicate.
   - `foldr` and `foldl`: Reduce a list to a single value by recursively applying a function.
 
-- **Data Types**: Haskell's type system is strong and statically typed, which helps catch many errors at compile time. You can define your own data types using the `data` keyword.
+- **Data Types**: Haskell's type system is strong and statically typed, which helps catch many errors at compile time.
 
-- **Tail-Recursion**: Tail-recursion is a special form of recursion where the recursive call is the last operation in the function. This allows the compiler to optimize the recursion, making it as efficient as a loop.
+- **Tail-Recursion**: Tail-recursion is a special form of recursion where the recursive call is the last operation in the function. This allows the compiler to optimize the recursion, making it as efficient as a loop. This is better because normal recursion includes many function calls onto the call stack.
 
 ## HW1
 In this project, I applied Haskell to solve problems such as:
