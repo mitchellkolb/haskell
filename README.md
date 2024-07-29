@@ -40,12 +40,12 @@ While learning about how to use haskell I coded a series of functions to solve s
 - [Team / Contributors / Teachers](#team--contributors--teachers)
 - [How to Set Up](#how-to-set-up)
 - [Project Overview](#project-overview)
-- [Project Details](#project-details)
-- [Key Haskell Concepts](#key-haskell-concepts)
-- [HW1](#hw1)
-- [HW2](#hw2)
-- [Unit Tests](#unit-tests)
-- [Topics and Lessons Covered](#topics-and-lessons-covered)
+    - [Project Details](#project-details)
+    - [Key Haskell Concepts](#key-haskell-concepts)
+    - [HW1](#hw1)
+    - [HW2](#hw2)
+    - [Unit Tests](#unit-tests)
+    - [Topics and Lessons Covered](#topics-and-lessons-covered)
 - [Acknowledgments](#acknowledgments)
 
 ---
