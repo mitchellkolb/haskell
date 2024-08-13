@@ -89,23 +89,50 @@ While learning about how to use haskell I coded a series of functions to solve s
 # How to Set Up
 This project was implemented on my local machine inside of a virtual machine using vscode:
 - [Ubuntu Download](https://ubuntu.com/download/desktop)
-- Install the [Haskell Platform](https://www.haskell.org/downloads/), which includes the GHC compiler.
+- Install the [Haskell Platform](https://www.haskell.org/downloads/), which includes the GHC compiler. Follow the install instructions on the website.
+- Install the [HUnit Testing Framework](https://hackage.haskell.org/package/HUnit) by following the install instructions on the website. You can alos look at the pdf's in the intro or higher-order haskell folders and at the bottom there is a "Testing your functions" section that gives more detail on installation of the HUnit package.
 - Clone this repository 
 - Open terminal at the codebase `~.../haskell/intro-haskell/` or `~.../haskell/higher-order-haskell/`
-- Run the Haskell interpreter and load the file within Haskell :
-``` haskell
-$ ghci
-Prelude > :load HW1
+- Run the Haskell interpreter and load the file within Haskell's ghci. 
+In your terminal enter ghci to start up the haskell package.
+```zsh
+user@vm:~/home$ ghci
+```
+- Once GHCi is running you should see this:
+```zsh
+GHCI, version 9.2.5: https://www.haskell.org/ghc/ :? for help
+ghci> _
+```
+- You can now compile and run the haskell code in this interface. I will use HW1.hs as an example.
+``` zsh
+ghci> :l HW1.hs
+[1 of 1] Compiling HW1
 Ok, one module loaded.
-Prelude Main> main
-Hello, world!
-Prelude Main>
 ```
-OR
-```haskell
-$ ghci
-Prelude > :l HW1
+- Once the Haskell file is loaded you can run any function in the codebase with your own input. 
+```zsh
+ghci> exists 1 [1,2,3]
+True
 ```
+- To quit out of ghci you can use the command `:q`.
+```zsh
+ghci> :q
+Leaving GHCi.
+```
+- To run the HUit tests file you can follow these commands, I will use HW2Tests.hs as an example.
+```zsh
+ghci> :l HW2Tests.hs
+[1 of 2] Compiling HW2
+[2 of 2] Compiling HW2Tests
+Ok, two modules loaded.
+```
+- Once the tests file is loaded you can use `run` to run the tests.
+```zsh
+ghci> run
+Cases: 36  Tried: 36  Errors: 0  Failures: 0
+Counts {cases = 36, tried = 36, errors = 0, failures = 0}
+```
+
 
 
 

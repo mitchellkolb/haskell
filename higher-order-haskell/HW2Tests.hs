@@ -4,7 +4,7 @@ We will be using the HUnit unit testing package in CptS 355.
 Example of using the HUnit unit test framework.  See  http://hackage.haskell.org/package/HUnit for additional documentation.
 To run the tests type "runTestTT tests" at the Haskell prompt.  -}
 
-module HW2SampleTests
+module HW2Tests
     where
 
 import Test.HUnit
