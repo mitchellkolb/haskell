@@ -22,7 +22,7 @@
 
 While learning about how to use haskell I coded a series of functions to solve specific programming problems. The goal was to improve my skills in functional programming, tail-recursion, and higher-order functions. The tasks included writing functions for list operations, tree manipulation, and custom data types, along with full unit tests to ensure correctness. 
 
-![project image](resources/image1.png)
+![project image](resources/haskell-gif.gif)
 
 <details>
 <summary style="color:#5087dd">Watch the Full Video Demo Here</summary>
