@@ -27,7 +27,7 @@ While learning about how to use haskell I coded a series of functions to solve s
 <details>
 <summary style="color:#5087dd">Watch the Full Video Demo Here</summary>
 
-[![Full Video Demo Here](https://img.youtube.com/vi/VidKEY/0.jpg)](https://www.youtube.com/watch?v=VidKEY)
+[![Full Video Demo Here](https://img.youtube.com/vi/sisDdJ-KjIc/0.jpg)](https://www.youtube.com/watch?v=sisDdJ-KjIc)
 
 </details>
 
